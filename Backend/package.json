@@ -4,8 +4,9 @@
   "description": "chat app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon App.js",
-    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "start": "node App.js",
+    "server": "nodemon Backend/App.js",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [
     "chat",
