@@ -16,9 +16,7 @@ let cors= require("cors")
 app.use(cors())
 
 
-app.get("/",(req,res)=>{
-    res.send(chats)
-})
+
 
 app.use("/api/user",userRoutes)
 app.use("/api/chat", chatRoutes);
@@ -47,7 +45,7 @@ app.use(notFound)
 app.use(errorHandler)
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 9000;
  let server=app.listen(PORT,()=>{
     console.log(`server started at ${PORT}`)
 })
