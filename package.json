@@ -11,7 +11,7 @@
     "chat",
     "server",
     "database"
-  ],
+  ],   
   "author": "Gaurav",
   "license": "ISC",
   "dependencies": {
