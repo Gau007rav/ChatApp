@@ -2,9 +2,9 @@
   "name": "chat",
   "version": "1.0.0",
   "description": "chat app",
-  "main": "./App.js",
+  "main": "App.js",
   "scripts": {
-    "start": "node ./App.js",
+    "start": "node Backend/App.js",
     "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [
